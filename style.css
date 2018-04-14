@@ -9,9 +9,18 @@ body{
     margin: 0;
 }
 
+/*===========================
+    HEADER
+==============================*/
 .sys-container{
     max-width: 980px;
     margin: auto;
+    position: relative;
+}
+
+.sys-custom__toolbar{
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
 }
 
 .sys-main__menu{
@@ -25,4 +34,70 @@ body{
     text-decoration: none;
     color: inherit;
     text-transform: uppercase;
+}
+
+/*---------- HERO ------------*/
+.sys-hero{
+    width: 100vw;
+    height: calc(100vh - 69px);
+    position: relative;
+    overflow: hidden;
+}
+
+.sys-hero__cover, 
+.sys-presentation,
+.sys-presentation-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sys-hero__cover-image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: left;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+.sys-presentation-overlay{
+    width: 100%;
+    height: 100%;
+    max-width: 40%;
+    background: rgba(0, 0, 0, .7);
+}
+
+.sys-presentation{
+    width: 100%;
+    height: 100%;
+}
+
+.sys-presentation__wrapper{
+    width: 100vw;
+    height: 100%;
+    position: relative;
+}
+
+.sys-presentation__content{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #fff;
+    padding: 24px;
+}
+
+.sys-presentation__content h1{
+    text-transform: uppercase;
+}
+
+@media screen and ( max-width: 425px) {
+    .sys-presentation-overlay{
+       max-width: 100%;
+    }
+
+    .sys-presentation__content{
+        width: calc(100% - 48px);
+    }
 }

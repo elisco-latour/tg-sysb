@@ -10,26 +10,54 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
-    <header class="mdc-toolbar ">
+<body class="mdc-typography">
+    <header class="mdc-toolbar sys-custom__toolbar">
         <div class="sys-container mdc-toolbar__row">
-
             <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-                <!--<a href="#" class="material-icons mdc-toolbar__menu-icon">menu</a>-->
+                <a href="#" class="material-icons mdc-toolbar__menu-icon">menu</a>
                 <span class="mdc-toolbar__title">.TG IT SYSADMIN</span>
             </section>
             <section class="mdc-toolbar__section mdc-toolbar__section--align-end">
                 <nav class="sys-main__navigation">
                     <ul class="sys-main__menu">
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
-                        <li><a href="#">link</a></li>
+                        <li>
+                            <a href="#">A propos</a>
+                        </li>
+                        <li>
+                            <a href="#">Notre phylosophie</a>
+                        </li>
+                        <li>
+                            <a href="#">Nos valeurs</a>
+                        </li>
+                        <!--<li>
+                            <a href="#">Contactez nous</a>
+                        </li>-->
                     </ul>
                 </nav>
             </section>
         </div>
     </header>
+    <main class="sys-main">
+        <div class="sys-hero">
+            <div class="sys-hero__cover">
+                <img class="sys-hero__cover-image" src="img/cover.jpg" />
+            </div>
+            <div class="sys-presentation-overlay">
+            </div>
+            <div class="sys-presentation">
+                <div class="sys-presentation__wrapper sys-container">
+                    <div class="sys-presentation__content">
+                        <h1 class="mdc-typography--headline">
+                            Centre de réflexion technologique "NEUTRE" au Togo.
+                        </h1>
+                        <p class="mdc-typography--subheading1">
+                            Notre mission est de renforcer les capacités de chaque partie prenante de l'Ecosystème technologique du TOGO.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="material/material-components-web.js"></script>
 </body>
 
