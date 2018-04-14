@@ -1,0 +1,28 @@
+/*
+* Author: Koffi Eli KPONBLANOU
+* Description: Project styles template
+* Date: Friday 13 APril 2018
+*/
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.sys-container{
+    max-width: 980px;
+    margin: auto;
+}
+
+.sys-main__menu{
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.sys-main__menu li a{
+    padding: 16px;
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
