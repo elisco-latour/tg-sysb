@@ -45,8 +45,8 @@ body{
 }
 
 .sys-hero__cover, 
-.sys-presentation,
-.sys-presentation-overlay{
+.sys-section__content,
+.sys-section__overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -60,19 +60,19 @@ body{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
     filter: grayscale(100%);
 }
-.sys-presentation-overlay{
+.sys-section__overlay{
     width: 100%;
     height: 100%;
     max-width: 40%;
     background: rgba(0, 0, 0, .7);
 }
 
-.sys-presentation{
+.sys-section__content{
     width: 100%;
     height: 100%;
 }
 
-.sys-presentation__wrapper{
+.sys-section__content--wrapper{
     width: 100vw;
     height: 100%;
     position: relative;
@@ -100,4 +100,46 @@ body{
     .sys-presentation__content{
         width: calc(100% - 48px);
     }
+}
+
+/* Sys section*/
+.sys-section{
+    padding: 0;
+    margin: 0;
+    position: relative;
+ 
+}
+
+.values{
+    min-height: 70vh;
+}
+
+.values-list{
+    list-style-type: square;
+}
+
+.sys-section__first,
+.sys-section__second{
+    padding: 24px;
+}
+
+.sys-section__first{
+    width: 40%;
+}
+
+.sys-section__second{
+    position: absolute;
+    left: 40%;
+    background-color: #fff;
+    top: 0;
+    height: calc(100% - 48px);
+}
+
+.sys-section__title{
+    text-transform: uppercase;
+    padding: 24px;
+}
+
+.sys-values__title{
+    color: #fff;
 }
