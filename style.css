@@ -139,7 +139,18 @@ body{
     text-transform: uppercase;
     padding: 24px;
 }
-
 .sys-values__title{
     color: #fff;
+}
+
+.sys-phylosophy__section{
+    background-color: #fdfdfd;
+}
+
+.sys-phylosophy{
+    text-align: center;
+}
+
+.phylosophy{
+    padding: 24px;
 }
