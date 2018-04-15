@@ -60,7 +60,7 @@ body{
 }
 
 .sys-hero__cover-image{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     object-fit: cover;
     object-position: left;
@@ -166,14 +166,16 @@ body{
     text-align: center;
 }
 
+/*
 .phylosophy{
-    /*background-color: #00aa60;*/
+    background-color: #00aa60;
 }
+*/
 
 
 .sys-footer{
     background-color: #212121;
-    padding: 24px;
+    padding: 16px 24px;
     position: relative;
 }
 
