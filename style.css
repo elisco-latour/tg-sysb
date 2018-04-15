@@ -7,6 +7,7 @@
 body{
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .sys-main{
@@ -55,7 +56,7 @@ body{
 /*---------- HERO ------------*/
 .sys-hero{
     width: 100vw;
-    height: calc(100vh - 85px);
+    height: 100vh;
     position: relative;
     overflow: hidden;
 }
@@ -206,11 +207,11 @@ body{
     background-color: rgba(237, 50, 54, .8);
 }*/
 
-/*@media screen and (max-width: 768px){
-    .sys-main__menu{
+@media screen and (max-width: 768px){
+   /* .sys-main__menu{
         display: none;
-    }
-}*/
+    }*/
+}
 
 @media screen and (max-width: 500px){
     .sys-section__first,
@@ -220,9 +221,9 @@ body{
     }
 }
 
-.sys-slide{
-    position: absolute;
-    top: 65px;
-    height: calc(100% - 48px);
-    transform: translateX(100%)
+/* Animation controls style */
+.show{
+    transform: translateX(0%);
+    transition: transform .195s cubic-bezier(0.4, 0.0, 0.2, 1);;
 }
+
