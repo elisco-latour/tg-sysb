@@ -33,7 +33,11 @@ body{
 .sys-main__menu{
     padding-left: 0;
     list-style: none;
-    display: flex;
+}
+.sys-main__menu li{
+ text-align: left;
+ margin-bottom: 8px;
+ display: block;
 }
 
 .sys-main__menu li a{
@@ -43,10 +47,15 @@ body{
     text-transform: uppercase;
 }
 
+.sys-contact{
+    border-color: #ed3236 !important;
+    color: #ed3236 !important;
+}
+
 /*---------- HERO ------------*/
 .sys-hero{
     width: 100vw;
-    height: calc(100vh - 69px);
+    height: calc(100vh - 85px);
     position: relative;
     overflow: hidden;
 }
@@ -85,6 +94,7 @@ body{
     position: relative;
     display: flex;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .sys-presentation__content{
@@ -95,6 +105,7 @@ body{
     transform: translateY(-50%);
     color: #fff;
     padding: 24px;
+    margin: 48px 0;
 }
 
 .sys-presentation__content h1{
@@ -128,6 +139,7 @@ body{
 .sys-section__first{
     width: calc(40% - 48px);
     padding-right: 0;
+    margin-right: 24px;
 }
 
 .sys-section__second{
@@ -152,6 +164,7 @@ body{
 
 .sys-values__list{
     list-style-type: square;
+    padding-left: 16px;
 }
 .sys-value{
     margin-bottom: 16px;
@@ -192,3 +205,24 @@ body{
 /*.sys-presentation__overlay{
     background-color: rgba(237, 50, 54, .8);
 }*/
+
+/*@media screen and (max-width: 768px){
+    .sys-main__menu{
+        display: none;
+    }
+}*/
+
+@media screen and (max-width: 500px){
+    .sys-section__first,
+    .sys-section__second{
+        width: 100%;
+        color: #f3f4f9;
+    }
+}
+
+.sys-slide{
+    position: absolute;
+    top: 65px;
+    height: calc(100% - 48px);
+    transform: translateX(100%)
+}

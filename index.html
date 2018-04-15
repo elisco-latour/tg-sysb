@@ -11,13 +11,13 @@
 </head>
 
 <body class="mdc-typography">
-    <header class="mdc-toolbar sys-custom__toolbar">
+    <header class="mdc-toolbar sys-custom__toolbar mdc-toolbar--fixed">
         <div class="sys-container mdc-toolbar__row">
             <section class="mdc-toolbar__section mdc-toolbar__section--align-start">
-                <a href="#" class="material-icons mdc-toolbar__menu-icon">menu</a>
+                <!--<a href="#" class="material-icons mdc-toolbar__menu-icon">menu</a>-->
                 <span class="mdc-toolbar__title">.TG IT SYSADMIN</span>
             </section>
-            <section class="mdc-toolbar__section mdc-toolbar__section--align-end">
+            <!--<section class="mdc-toolbar__section mdc-toolbar__section--align-end">
                 <nav class="sys-main__navigation">
                     <ul class="sys-main__menu">
                         <li>
@@ -29,12 +29,12 @@
                         <li>
                             <a href="#">Nos valeurs</a>
                         </li>
-                        <!--<li>
+                        <li>
                             <a href="#">Contactez nous</a>
-                        </li>-->
+                        </li>
                     </ul>
                 </nav>
-            </section>
+            </section>-->
         </div>
     </header>
     <main class="sys-main">
@@ -53,11 +53,28 @@
                         <p class="mdc-typography--subheading1">
                             Notre mission est de renforcer les capacités de chaque partie prenante de l'Ecosystème technologique du TOGO.
                         </p>
+                        <!-- <a  href="mailto:contact@itsysadmin.tg">Nous &eacute;crire</a>-->
+                        <nav class="sys-main__navigation">
+                            <ul class="sys-main__menu">
+                                <li>
+                                    <a class="mdc-button mdc-button--stroked sys-contact" href="#about">A propos</a>
+                                </li>
+                                <li>
+                                    <a class="mdc-button mdc-button--stroked sys-contact" href="phylosophy">Notre phylosophie</a>
+                                </li>
+                                <li>
+                                    <a class="mdc-button mdc-button--stroked sys-contact" href="#values">Nos valeurs</a>
+                                </li>
+                                <li>
+                                    <a class="mdc-button mdc-button--stroked sys-contact" href="#">Contactez nous</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="sys-section sys-values__section">
+        <section id="values" class="sys-section sys-slide sys-values__section">
             <div class="sys-section__overlay">
             </div>
             <div class="sys-container">
@@ -100,7 +117,7 @@
                 </div>
             </div>
         </section>
-        <section class="sys-section sys-phylosophy__section">
+        <section id="phylosophy" class="sys-section sys-slide sys-phylosophy__section">
             <div class="sys-section__overlay">
             </div>
             <div class="sys-container">
@@ -115,10 +132,11 @@
                     <div class="sys-section__second">
                         <div class="phylosophy">
                             <p>
-                                Dès ses débuts, <strong>.TG ITSYSADMIN</strong>, le groupe WHATSAPP, s'est inscrit dans une démarche de neutralité, d'absence de promotion
-                                d'entreprise prestataire ou fournisseurs de biens et services, bannissant tout contenu à
-                                valeur marketing, publicitaire ou politique tout en encourageant la liberté d'expression,
-                                l'analyse et l'ouverture d'esprit.
+                                Dès ses débuts,
+                                <strong>.TG ITSYSADMIN</strong>, le groupe WHATSAPP, s'est inscrit dans une démarche de neutralité,
+                                d'absence de promotion d'entreprise prestataire ou fournisseurs de biens et services, bannissant
+                                tout contenu à valeur marketing, publicitaire ou politique tout en encourageant la liberté
+                                d'expression, l'analyse et l'ouverture d'esprit.
                             </p>
                             <p>
                                 Cela nous a permis de créer un lieu où chaque acteur pouvait librement exposer les problèmes rencontrés, ses opinions sur
@@ -143,6 +161,9 @@
         </div>
     </footer>
     <script src="material/material-components-web.js"></script>
+    <script>
+        
+    </script>
 </body>
 
 </html>
