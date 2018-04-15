@@ -5,11 +5,7 @@ sysMenu.addEventListener('click', function (e) {
     if( e.target != this ){
         sectionID = e.target.getAttribute('href');
         clickedSection = document.querySelector(sectionID);
-        clickedSection.scrollIntoView({behavior: "smooth", block: "nearest", inline: "start"});
+        clickedSection.scrollIntoView({behavior: "smooth", block: "start", inline: "start"});
     }
 
 });
-
-function showSLide(param) {
-    param.classList.add('show');
-}

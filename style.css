@@ -154,6 +154,13 @@ body{
 .sys-section__title h2{
     max-width: 100%;
 }
+.sys-about__section{
+    background: #ed3236;
+}
+
+.sys-about__title{
+    color: #fff;
+}
 
 .sys-values__section{
     background: #f9ff00;
