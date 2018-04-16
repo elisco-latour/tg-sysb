@@ -49,8 +49,8 @@ body{
 }
 
 .sys-contact{
-    border-color: #ed3236 !important;
-    color: #ed3236 !important;
+    border-color: #ce0000bf !important;
+    color: #ce0000bf !important;
 }
 
 /*---------- HERO ------------*/
@@ -155,7 +155,7 @@ body{
     max-width: 100%;
 }
 .sys-about__section{
-    background: #ed3236;
+    background: #ce0000a3;
 }
 
 .sys-about__title{
@@ -163,7 +163,7 @@ body{
 }
 
 .sys-values__section{
-    background: #f9ff00;
+    background: #ffde0793;
 }
 
 .sys-values__title{
