@@ -155,7 +155,13 @@ body{
     max-width: 100%;
 }
 .sys-about__section{
+<<<<<<< HEAD
     background: #ce0000a3;
+||||||| merged common ancestors
+    background: #ed3236;
+=======
+    background: #fc1f3b;
+>>>>>>> 13389ea60f1ac2064330798beb4632094cd47e41
 }
 
 .sys-about__title{
